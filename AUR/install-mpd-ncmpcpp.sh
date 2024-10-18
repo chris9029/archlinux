@@ -79,8 +79,8 @@ sed -i 's/~\/.mpd\/socket/~\/.config\/mpd\/socket/g' ~/.config/mpd/mpd.conf
 sed -i 's/#filesystem_charset/filesystem_charset/g' ~/.config/mpd/mpd.conf
 
 echo 'audio_output {
-type  "pulse"
-name  "pulseaudio"
+type  "pipewire"
+name  "PipeWire Sound Server"
 }
 
 audio_output {
